@@ -1,0 +1,137 @@
+:root {
+  --primary: #3563e9;
+  --secondary: #1a202c;
+  --success: #9cd323;
+  --error: #ff4423;
+  --warning: #ffc73a;
+  --info: #54a6ff;
+
+  --primary-light-100: #d6e4fd;
+  --primary-light-200: #aec8fc;
+  --primary-light-300: #85a8f8;
+  --primary-light-400: #658df1;
+
+  --secondary-light-100: #e0e9f4;
+  --secondary-light-200: #c3d4e9;
+  --secondary-light-300: #90a3bf;
+  --secondary-light-400: #596780;
+
+  --success-light-100: #f5fcd2;
+  --success-light-200: #e8faa6;
+  --success-light-300: #d3f178;
+  --success-light-400: #bce455;
+
+  --error-light-100: #ffe7d3;
+  --error-light-200: #ffc8a6;
+  --error-light-300: #ffa37a;
+  --error-light-400: #ff7f59;
+
+  --warning-light-100: #fff8d7;
+  --warning-light-200: #ffefb0;
+  --warning-light-300: #ffe488;
+  --warning-light-400: #ffd96b;
+
+  --info-light-100: #dcf3ff;
+  --info-light-200: #bae5ff;
+  --info-light-300: #98d3ff;
+  --info-light-400: #7ec2ff;
+
+  --primary-dark-600: #264BC8;
+  --primary-dark-700: #1A37A7;
+  --primary-dark-800: #102587;
+  --primary-dark-900: #0A196F;
+
+  --secondary-dark-600: #131825;
+  --secondary-dark-700: #0D121F;
+  --secondary-dark-800: #080C19;
+  --secondary-dark-900: #040815;
+
+  --success-dark-600: #7FB519;
+  --success-dark-700: #659711;
+  --success-dark-800: #4C7A0B;
+  --success-dark-900: #3B6506;
+
+  --error-dark-600: #DB2719;
+  --error-dark-700: #B71112;
+  --error-dark-800: #930B16;
+  --error-dark-900: #7A0619;
+
+  --warning-dark-600: #DBA32A;
+  --warning-dark-700: #B7821D;
+  --warning-dark-800: #936312;
+  --warning-dark-900: #7A4D0B;
+
+  --info-dark-600: #3D81DB;
+  --info-dark-700: #2A60B7;
+  --info-dark-800: #1A4393;
+  --info-dark-900: #102E7A;
+}
+
+/* 1. Use a more-intuitive box-sizing model */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 2. Remove default margin */
+* {
+  margin: 0;
+}
+
+body {
+  /* 3. Add accessible line-height */
+  line-height: 1.5;
+  /* 4. Improve text rendering */
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 5. Improve media defaults */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 6. Inherit fonts for form controls */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* 7. Avoid text overflows */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* 8. Improve line wrapping */
+p {
+  text-wrap: pretty;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+/*
+  9. Create a root stacking context
+*/
+#root,
+#__next {
+  isolation: isolate;
+}
